@@ -620,7 +620,7 @@ def main():
     image = Image.open('logo2.jpeg')
     st.sidebar.image(image,)
     add_selectbox = st.sidebar.selectbox(
-        "How would you like to predict?", ("Online"))
+        "How would you like to predict?", ("Online",))
     
     
     if add_selectbox == "Online":
