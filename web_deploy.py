@@ -672,7 +672,7 @@ def main():
         clinder = st.number_input('Clinder of Auto :',min_value= 0,max_value=8,value=4)
         data['cylinders'] = clinder
         
-        fuel_con_comb = st.number_input('Fuel consumption of Auto :',min_value=0, max_value=11, value=5, format="%.2f")
+        fuel_con_comb = st.number_input('Fuel consumption of Auto :',min_value=0, max_value=11, value=5, format="%.2f", step=0.1)
         data['_fuel_con_comb'] = fuel_con_comb
 
         door = st.number_input('Doors of Auto :',min_value= 0,max_value=8,value=5)
